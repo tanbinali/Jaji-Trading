@@ -1,0 +1,46 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;700;800;900&display=swap');
+
+/* Tailwind + DaisyUI setup */
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all;
+}
+
+/* Define Custom Theme Variables for Tailwind v4 */
+@theme {
+  --font-body: "Inter", sans-serif;
+  --font-heading: "Outfit", sans-serif;
+}
+
+/* Global Typography Mapping */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  /* Optional: Makes fonts render sharper on Mac/iOS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.logo,
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+/* Utility to hide scrollbars on horizontal scrolling elements if needed */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
