@@ -59,7 +59,7 @@ const StoreMap = () => {
     "@context": "https://schema.org",
     "@type": "AutoRepair",
     name: "Jaji Car Battery Replacement & Auto Spare Parts Trading",
-    image: "https://yourdomain.com/logo.png", // Replace
+    image: "https://jajicarbatteryautospareparts.com/logo.png", 
     address: {
       "@type": "PostalAddress",
       streetAddress: "Yas Mall",
@@ -67,11 +67,11 @@ const StoreMap = () => {
       addressCountry: "AE",
     },
     telephone: "+971547676536",
-    url: "https://yourdomain.com", // Replace
+    url: "https://jajicarbatteryautospareparts.com", 
     openingHours: "Mo-Su 00:00-23:59",
     areaServed: "Abu Dhabi",
     sameAs: [
-      "https://maps.google.com/?q=Yas+Mall+Abu+Dhabi", // Replace
+      "https://maps.google.com/?q=Yas+Mall+Abu+Dhabi", 
     ],
   };
 

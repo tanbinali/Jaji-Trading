@@ -109,7 +109,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-sm font-bold text-neutral-content/50 uppercase tracking-wider group-hover:text-success-content/70">Chat on WhatsApp</p>
-                  <p className="text-lg font-bold text-neutral-content group-hover:text-success-content">Send Location Pin</p>
+                  <p className="text-lg font-bold text-neutral-content group-hover:text-success-content">+971 54 767 6536</p>
                 </div>
               </a>
             </div>

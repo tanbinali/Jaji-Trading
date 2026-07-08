@@ -21,7 +21,7 @@ const structuredData = {
     contactType: "customer service",
     availableLanguage: ["English", "Arabic"],
   },
-  url: "https://yourdomain.com", // Replace with your website
+  url: "https://jajicarbatteryautospareparts.com",
 };
 
 const Contact = () => {
@@ -184,7 +184,7 @@ const Contact = () => {
 
                 <div className="flex items-center gap-2 text-success font-semibold">
                   <HiOutlineChatBubbleLeftRight className="w-5 h-5" />
-                  <span>Start Chat</span>
+                  <span>Start Chat at +971 54 767 6536</span>
                 </div>
               </div>
 

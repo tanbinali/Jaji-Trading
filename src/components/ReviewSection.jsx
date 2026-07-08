@@ -75,7 +75,7 @@ const ReviewsSection = () => {
     "@context": "https://schema.org",
     "@type": "AutoPartsStore",
     name: "Jaji Car Battery Replacement & Auto Spare Parts Trading",
-    url: "https://yourdomain.com",
+    url: "https://jajicarbatteryautospareparts.com",
     description: "Professional on-site car battery replacement and delivery service in Abu Dhabi & Yas Mall. Fast, affordable, and reliable.",
     aggregateRating: {
       "@type": "AggregateRating",
@@ -98,7 +98,7 @@ const ReviewsSection = () => {
       itemReviewed: {
         "@type": "AutoPartsStore",
         name: "Jaji Car Battery Replacement & Auto Spare Parts Trading",
-        url: "https://yourdomain.com",
+        url: "https://jajicarbatteryautospareparts.com",
       },
     })),
   };

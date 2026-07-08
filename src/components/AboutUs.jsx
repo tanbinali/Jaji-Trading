@@ -19,7 +19,7 @@ const structuredData = {
   "@type": "AutoRepair",
   name: "Jaji Car Battery Replacement & Auto Spare Parts Trading",
   serviceType: "24/7 On-Site Car Battery Replacement",
-  image: "https://yourdomain.com/banner.png", // Replace with your actual image
+  image: "https://jajicarbatteryautospareparts.com/banner.png",
   address: {
     "@type": "PostalAddress",
     addressLocality: "Yas Mall",
@@ -27,7 +27,7 @@ const structuredData = {
   },
   openingHours: "Mo-Su 00:00-23:59",
   telephone: "+971547676536",
-  url: "https://yourdomain.com", // Replace with your actual website
+  url: "https://jajicarbatteryautospareparts.com",
 };
 
 const AboutUs = () => {

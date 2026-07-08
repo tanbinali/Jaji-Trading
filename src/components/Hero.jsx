@@ -166,18 +166,24 @@ const Hero = () => {
               href="https://wa.me/971547676536"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-success flex-1 h-14 rounded-2xl text-lg font-bold shadow-md hover:-translate-y-1 transition-transform"
+              className="btn btn-success flex-1 h-auto py-3 px-4 rounded-2xl shadow-md hover:-translate-y-1 transition-transform flex items-center justify-center gap-3 border-none"
             >
-              <FaWhatsapp className="w-6 h-6" />
-              WhatsApp
+              <FaWhatsapp className="w-7 h-7 text-success-content" />
+              <div className="flex flex-col items-start text-left">
+                <span className="text-base font-bold leading-none text-success-content">WhatsApp Us</span>
+                <span className="text-sm font-semibold tracking-wider text-success-content/90 mt-1">+971 54 767 6536</span>
+              </div>
             </a>
 
             <a
               href="tel:+971547676536"
-              className="btn btn-primary flex-1 h-14 rounded-2xl text-lg font-bold shadow-md hover:-translate-y-1 transition-transform"
+              className="btn btn-primary flex-1 h-auto py-3 px-4 rounded-2xl shadow-md hover:-translate-y-1 transition-transform flex items-center justify-center gap-3 border-none"
             >
-              <HiOutlinePhone className="w-6 h-6" />
-              Call Now
+              <HiOutlinePhone className="w-7 h-7 text-primary-content" />
+              <div className="flex flex-col items-start text-left">
+                <span className="text-base font-bold leading-none text-primary-content">Call Now</span>
+                <span className="text-sm font-semibold tracking-wider text-primary-content/90 mt-1">+971 54 767 6536</span>
+              </div>
             </a>
           </motion.div>
 
