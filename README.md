@@ -19,7 +19,7 @@
 
 ## Live
 
-> **Live URL:** _([www.jajicarbatteryautospareparts.com](jajicarbatteryautospareparts.com))_
+> **Live URL:** www.jajicarbatteryautospareparts.com
 
 ---
 
